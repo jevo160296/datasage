@@ -167,7 +167,7 @@ def main():
     st.markdown('<h2 style="text-align: center;">Contáctanos</h2>', unsafe_allow_html=True)
     st.markdown('Si estás interesado en nuestros servicios, por favor, no dudes en ponerte en contacto con nosotros:')
     st.markdown('- Teléfono: 6067524281')
-    st.markdown('- Correo electrónico: info@ingenieriadedatos.com')
+    st.markdown('- Correo electrónico: info@datasage.com')
 
 
 # Ejecuta tu aplicación de Streamlit
