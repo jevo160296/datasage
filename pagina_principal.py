@@ -92,9 +92,11 @@ def main():
             if chart_type1 == 'bar':
                 sns.barplot(data=data1, x=x_axis1, y='Ingresos', ax=ax1)
                 plt.ylabel('Ingresos')
+                plt.title('Histórico de ingresos')
             elif chart_type1 == 'line':
                 sns.lineplot(data=data1, x=x_axis1, y='Ingresos', ax=ax1)
                 plt.ylabel('Ingresos')
+                plt.title('Histórico de ingresos')
             elif chart_type1 == 'pie':
                 ax1.pie(data1['Ingresos'], labels=data1['Año'], autopct='%1.1f%%')
                 ax1.set_aspect('equal')
@@ -145,9 +147,11 @@ def main():
             if chart_type2 == 'bar':
                 sns.barplot(data=data2, x='Popularidad', y=y_axis, ax=ax2)
                 plt.xlabel('Popularidad')
+                plt.title('Popularidad de lenguajes de programación')
             elif chart_type2 == 'line':
                 sns.lineplot(data=data2, x='Popularidad', y=y_axis, ax=ax2)
                 plt.xlabel('Popularidad')
+                plt.title('Popularidad de lenguajes de programación')
             elif chart_type2 == 'pie':
                 ax2.pie(data2['Popularidad'], labels=data2['Lenguaje'], autopct='%1.1f%%')
                 ax2.set_aspect('equal')
